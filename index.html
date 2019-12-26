@@ -10,6 +10,7 @@
   <meta name="author" content="Salman Siddiqui">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/navbar.css">
 </head>
 
 <body>
@@ -18,12 +19,14 @@
   <![endif]-->
 
   <header>
-    <h2><a href="index.html">Salman Siddiqui</a></h2>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
+    <nav id="navbar">
+      <span class="navbar-toggle">
+        <img id="nav-menu-toggle" src="img/nav-menu-bars.svg">
+      </span>
+      <a class="nav-logo" href="index.html">Salman Siddiqui</a>
+      <ul id="nav-menu">
+        <li><a class="nav-links" href="projects.html">Projects</a></li>
+        <li><a class="nav-links" href="blog.html">Blog</a></li>
       </ul>
     </nav>
   </header>
@@ -31,12 +34,14 @@
   <main>
     <h1>Hi, I'm Salman Siddiqui!</h1>
     <div>
-      <p>I'm an aspiring software engineer and a student at <abbr title="Simon Fraser University">SFU</abbr> majoring in Computing Science, with a focus in artificial intelligence.</p>
+      <p>I'm an aspiring software engineer and a student at <abbr title="Simon Fraser University">SFU</abbr> 
+        majoring in Computing Science, with a focus in artificial intelligence.</p>
       <p>I'm interested in hiking, teaching, reading and all things tech!</p>
     </div>
   </main>
 
   <script src="js/main.js"></script>
+  <script src="js/navbar.js"></script>
 </body>
 
 </html>
