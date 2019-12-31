@@ -1,4 +1,8 @@
 
+let projects = ['jmc', 'rpm', 'vilebot', 'nomad', 'tictactoe', 'acps', 'mojio', 'shogi'];
+let projectDir = 'projects/';
+let fileSuffix = '.md';
+
 function loadFile(filePath) {
   var result = null;
   var xmlhttp = new XMLHttpRequest();
@@ -10,15 +14,12 @@ function loadFile(filePath) {
   return result;
 }
 
-let projects = ['jmc', 'rpm', 'vilebot', 'nomad', 'tictactoe', 'acps', 'mojio', 'shogi'];
-let projectDir = 'projects/';
-let fileSuffix = '.md';
-
 let siteUrl = window.location.pathname;
-let projectDirUrl = siteUrl.substr(0, siteUrl.lastIndexOf('/') + 1) + projectDir;
+let projectDirUrl = siteUrl.substring(0, siteUrl.lastIndexOf('/') + 1) + projectDir;
 let projSection = document.getElementById('projects')
 let converter = new showdown.Converter()
 
+// get markdown content of files in projectDir and append to main section
 projects.forEach((proj) => {
   let projDesc = loadFile(projectDirUrl + proj + fileSuffix);
   let projHtml = converter.makeHtml(projDesc);
