@@ -6,6 +6,7 @@ let blogPosts = [
   "2019-07-17-coop-red-hat-and-ibm",
   "2019-07-17-howd-you-like-the-6ix",
   "2019-07-27-company-of-the-truthful",
+  "2020-01-01-new-website",
 ];
 let fileSuffix = ".md"
 
@@ -35,6 +36,7 @@ blogPosts.forEach((post) => {
   let postMdLines = postMd.split('\n');
   
   let postTitle = postMdLines[1].split(':').slice(1).join(":").substring(2, postMdLines[1].split(':').slice(1).join(":").length-1);
+  console.log(postTitle);
   let postDate = postMdLines[2].split(':')[1].substring(2, 12);
   let postContent = postMdLines.slice(5).join('\n');
   let postHtml = converter.makeHtml(postContent);
