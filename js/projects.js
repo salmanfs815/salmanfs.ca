@@ -1,5 +1,13 @@
-
-let projects = ['jmc', 'rpm', 'vilebot', 'nomad', 'tictactoe', 'acps', 'mojio', 'shogi'];
+let projects = [
+  'jmc',
+  'rpm',
+  // 'vilebot',
+  'nomad',
+  'tictactoe',
+  'acps',
+  'mojio',
+  'shogi',
+];
 let projectDir = 'projects/';
 let fileSuffix = '.md';
 

@@ -1,12 +1,12 @@
 let blogPosts = [
-  "2017-08-31-hello-world",
-  "2017-09-04-hajj-memories",
-  "2017-09-07-ta-day-0",
-  "2017-10-18-why-learn-assembly",
-  "2019-07-17-coop-red-hat-and-ibm",
-  "2019-07-17-howd-you-like-the-6ix",
-  "2019-07-27-company-of-the-truthful",
-  "2020-01-01-new-website",
+  '2017-08-31-hello-world',
+  '2017-09-04-hajj-memories',
+  '2017-09-07-ta-day-0',
+  '2017-10-18-why-learn-assembly',
+  '2019-07-17-coop-red-hat-and-ibm',
+  '2019-07-17-howd-you-like-the-6ix',
+  '2019-07-27-company-of-the-truthful',
+  '2020-01-01-new-website',
 ];
 let fileSuffix = ".md"
 
