@@ -1,10 +1,9 @@
 let projects = [
   'jmc',
   'rpm',
-  // 'vilebot',
+  'acps',
   'nomad',
   'tictactoe',
-  'acps',
   'mojio',
   'shogi',
 ];
