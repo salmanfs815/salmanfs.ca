@@ -10,6 +10,8 @@ We forked an open-source project, [DStat](http://microfluidics.utoronto.ca/gitla
 that some researchers at University of Toronto had been developing.
 I worked on the GUI that would interface with the hardware module over serial USB.
 
+<img src="/projects/images/acps.jpg" alt="ACPS hardware" width="500"/>
+
 Our fork grew considerably different from the original DStat as our requirements evolved.
 We soon realized the need to create a new program to better suit our needs.
 It needed to be very lightweight, efficient and reliable.
