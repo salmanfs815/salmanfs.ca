@@ -1,0 +1,22 @@
+{
+  "name": "salmanfs.ca",
+  "version": "1.0.0",
+  "description": "Personal website of Salman Siddiqui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmanfs815/salmanfs.ca.git"
+  },
+  "author": "Salman Siddiqui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salmanfs815/salmanfs.ca/issues"
+  },
+  "homepage": "https://github.com/salmanfs815/salmanfs.ca#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}

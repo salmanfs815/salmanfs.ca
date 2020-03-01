@@ -1,0 +1,11 @@
+---
+layout: "base.njk"
+title: "Projects"
+---
+
+<p>A brief overview of some of the mildly interesting projects I've worked on over the years:</p>
+<ul>
+{% for project in collections.project | reverse %}
+  <li><a href={{ project.url }}>{{ project.data.title }}</a></li>
+{% endfor %}
+</ul>
